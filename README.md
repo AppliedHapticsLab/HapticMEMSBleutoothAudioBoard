@@ -154,10 +154,15 @@ cd bluetooth-audio-boards
 │   ├── Sub_Board.sch
 │   └── Sub_Board_3D.stl
 ├── images/                      # プロジェクト画像
-├── firmware/                    # ファームウェア（該当する場合）
 ├── LICENSE                      # ライセンスファイル
+├── OptionFile.hex　　　　　　　　# BM83用の設定ファイル
 └── README.md                   # このファイル
 ```
+
+##謝辞
+参考にさせていただいたサイトになります．
+- https://www.zep.co.jp/kzenyouji/article/z-bm83-da2/
+- https://cotechworks.ltt.jp/2024/08/15/post-1609/
 
 ## ライセンス
 
