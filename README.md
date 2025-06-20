@@ -130,7 +130,7 @@ cd bluetooth-audio-boards
 - 測定器具（オシロスコープ、マルチメーター）
 
 ### 推奨開発環境
-- Eagle CAD または KiCad
+- Eagle CAD または Fusion360
 - 温度制御はんだごて
 - デジタルマルチメーター
 
