@@ -116,6 +116,9 @@ git clone https://github.com/yourusername/bluetooth-audio-boards.git
 cd bluetooth-audio-boards
 ```
 
+以下のURLを参考にBM83用のツールソフトをダウンロード・設定する
+URL：https://www.zep.co.jp/kzenyouji/article/z-bm83-da2/
+
 ### 基本操作
 1. **電源投入**: LiPoバッテリー接続 or USB給電
 2. **ペアリング**: 電源投入時に自動的にペアリングモード
