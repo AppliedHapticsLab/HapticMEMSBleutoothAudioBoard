@@ -4,7 +4,7 @@
 [![GitHub Issues](https://img.shields.io/github/issues/yourusername/bluetooth-audio-boards.svg)](https://github.com/yourusername/bluetooth-audio-boards/issues)
 [![GitHub Stars](https://img.shields.io/github/stars/yourusername/bluetooth-audio-boards.svg)](https://github.com/yourusername/bluetooth-audio-boards/stargazers)
 
-高品質Bluetooth音声システム用基板セットです。BM83 BluetoothモジュールとCS4344 DACを使用した音声処理システですす。
+BM83 BluetoothモジュールとCS4344 DACを使用してMEMSを駆動するデバイスです。
 
 *メイン基板の完成例*
 ![Main Board](images/Main_Board.png)
