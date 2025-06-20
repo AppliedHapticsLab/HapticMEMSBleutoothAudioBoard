@@ -10,10 +10,10 @@
 ![Main Board](images/Main_Board.png)
 
 *メインに重ねる基板の完成例*
-![Main Board](images/Main_Board_sub.png)
+![Main Board](images/Sub_Board.png)
 
 *サブ基板の完成例*
-![Main Board](images/Sub_Board.png)
+![Main Board](images/Main_Board_sub.png)
 
 ## 目次
 
