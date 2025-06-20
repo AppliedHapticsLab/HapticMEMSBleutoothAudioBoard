@@ -14,10 +14,10 @@
 - [プロジェクト概要](#プロジェクト概要)
 - [基板構成](#基板構成)
 - [技術仕様](#技術仕様)
-- [セットアップ](#セットアップ)
+- [主要機能](#主要機能)
 - [使用方法](#使用方法)
 - [開発環境](#開発環境)
-- [コントリビューション](#コントリビューション)
+- [ファイル構成](#ファイル構成)
 - [ライセンス](#ライセンス)
 
 ## プロジェクト概要
@@ -49,30 +49,32 @@
 
 ### 2. Main_Board_sub（メインサブ基板）
 
-メイン基板と同サイズで同機能を持つ基板です。
+メイン基板と同サイズの基板で、DAC機能を担当します。
 
 **特徴:**
-- Main_Boardと同一機能
-- 同一フォームファクター
-- システム拡張・冗長化に対応
+- CS4344 DAC搭載
+- Main_Boardと同一フォームファクター
+- I2S信号受信による音声出力
 
 ### 3. Sub_Board（サブ基板）
 
-コンパクトサイズの基板です。
+コンパクトサイズの基板で、DAC機能を担当します。
 
 **特徴:**
+- CS4344 DAC搭載
 - 小型フォームファクター
-- Main_Boardと同一機能
+- I2S信号受信による音声出力
 - 省スペース設置に最適
 
 ## システム構成
 
 ```
-Main_Board (BM83) 
+Bluetooth Device
     ↓ Bluetooth Audio
+Main_Board (BM83)
     ↓ I2S Signal Distribution
-    ├─→ Main_Board_sub (CS4344 DAC)
-    └─→ Sub_Board (CS4344 DAC)
+    ├─→ Main_Board_sub (CS4344 DAC) → Audio Output
+    └─→ Sub_Board (CS4344 DAC) → Audio Output
 ```
 
 ## 技術仕様
@@ -112,7 +114,6 @@ Main_Board (BM83)
 # リポジトリをクローン
 git clone https://github.com/yourusername/bluetooth-audio-boards.git
 cd bluetooth-audio-boards
-
 ```
 
 ### 基本操作
@@ -129,8 +130,9 @@ cd bluetooth-audio-boards
 - 測定器具（オシロスコープ、マルチメーター）
 
 ### 推奨開発環境
-- [開発に使用したソフトウェア名]
-- [プログラミング環境（該当する場合）]
+- Eagle CAD または KiCad
+- 温度制御はんだごて
+- デジタルマルチメーター
 
 ## ファイル構成
 
@@ -139,19 +141,19 @@ cd bluetooth-audio-boards
 ├── 1.Main_Board/                 # メイン基板設計ファイル
 │   ├── Main_Board.brd         
 │   ├── Main_Board.sch
-│   ├── Main_Board_3D.stl
+│   └── Main_Board_3D.stl
 ├── 2.Main_Board_sub/            # メインサブ基板設計ファイル
 │   ├── Main_Board_sub.brd         
 │   ├── Main_Board_sub.sch
-│   ├── Main_Board_sub_3D.stl
+│   └── Main_Board_sub_3D.stl
 ├── 3.Sub_Board/                 # サブ基板設計ファイル
 │   ├── Sub_Board.brd         
 │   ├── Sub_Board.sch
-│   ├── Sub_Board_3D.stl
-├── images/                    # プロジェクト画像
-├── firmware/                  # ファームウェア（該当する場合）
-├── LICENSE                    # ライセンスファイル
-└── README.md                 # このファイル
+│   └── Sub_Board_3D.stl
+├── images/                      # プロジェクト画像
+├── firmware/                    # ファームウェア（該当する場合）
+├── LICENSE                      # ライセンスファイル
+└── README.md                   # このファイル
 ```
 
 ## ライセンス
