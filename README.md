@@ -6,12 +6,14 @@
 
 高品質Bluetooth音声システム用基板セットです。BM83 BluetoothモジュールとCS4344 DACを使用した音声処理システですす。
 
-![Main Board](images/Main_Board.png)
 *メイン基板の完成例*
-![Main Board](images/Main_Board_sub.png)
+![Main Board](images/Main_Board.png)
+
 *メインに重ねる基板の完成例*
-![Main Board](images/Sub_Board.png)
+![Main Board](images/Main_Board_sub.png)
+
 *サブ基板の完成例*
+![Main Board](images/Sub_Board.png)
 
 ## 目次
 
