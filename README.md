@@ -165,7 +165,7 @@ cd bluetooth-audio-boards
 └── README.md                   # このファイル
 ```
 
-##謝辞
+## 謝辞
 参考にさせていただいたサイトになります．
 - https://www.zep.co.jp/kzenyouji/article/z-bm83-da2/
 - https://cotechworks.ltt.jp/2024/08/15/post-1609/
